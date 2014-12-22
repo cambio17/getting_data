@@ -5,14 +5,8 @@ The main script is 'run_analysis.R'. While being executed, it calls a function '
 
 
 
-### *****************************************************************************************************
-#                                  run_analysis.R
-### *****************************************************************************************************
+#                        run_analysis.R
 
-## download and unzip the dataset
-# uri <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-# download.file(uri, destfile = "dataset.zip", method = "curl")                
-# unzip("dataset.zip")
 
 ## assign variables for directories to facilitate navigation
 dir.main <- getwd()
@@ -74,9 +68,9 @@ message("... wrote the result to the file 'uci_har_dataset_clean.txt' ")
 message("Done.")
  
 
-### *****************************************************************************************************
-#                                  getData.R
-### *****************************************************************************************************
+
+#                         getData.R
+
  
 getData <- function(directory, keyword) {
     
