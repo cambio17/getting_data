@@ -1,6 +1,4 @@
 
-# setwd("Documents/Study/Coursera/data_science/3_getting_data/course_project") # remove later
-
 ## download and unzip the dataset
 # uri <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 # download.file(uri, destfile = "dataset.zip", method = "curl")                
